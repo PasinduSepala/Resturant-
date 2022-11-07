@@ -15,7 +15,7 @@ const Sample = () => {
 
      
       <TouchableOpacity>
-      <MaterialIcons name="home" size={30} color="#900" />
+      <MaterialIcons name="home" size={30} color="yellow" />
 
       <Text style={{fontFamily: 'NotoSerif-Italic', fontSize: 20}}>Home</Text>
       </TouchableOpacity>
