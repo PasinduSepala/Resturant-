@@ -2,20 +2,8 @@
   "migIndex": 1,
   "data": [
     {
-      "path": "assets/fonts/NotoSerif-Bold.ttf",
-      "sha1": "0ac1af0607337223d4514685289f07815f573564"
-    },
-    {
-      "path": "assets/fonts/NotoSerif-BoldItalic.ttf",
-      "sha1": "1aa07f8aece2709fc935bec4bb924ebfcaca55d9"
-    },
-    {
-      "path": "assets/fonts/NotoSerif-Italic.ttf",
-      "sha1": "43922a075458e4328bf5a72c1da7b2bbb3b2f0e5"
-    },
-    {
-      "path": "assets/fonts/NotoSerif-Regular.ttf",
-      "sha1": "3f15509c797a957769316e054c4f7f43ef1d9563"
+      "path": "assets/Images/Group 18118.jpg",
+      "sha1": "3245019035fef261f36c07c7989cc804a105e142"
     }
   ]
 }

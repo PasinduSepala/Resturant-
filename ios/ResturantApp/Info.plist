@@ -52,11 +52,6 @@
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
 	<key>UIAppFonts</key>
-	<array>
-		<string>NotoSerif-Bold.ttf</string>
-		<string>NotoSerif-BoldItalic.ttf</string>
-		<string>NotoSerif-Italic.ttf</string>
-		<string>NotoSerif-Regular.ttf</string>
-	</array>
+	<array/>
 </dict>
 </plist>

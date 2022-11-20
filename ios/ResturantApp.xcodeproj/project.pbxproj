@@ -14,10 +14,7 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		7699B88040F8A987B510C191 /* libPods-ResturantApp-ResturantAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-ResturantApp-ResturantAppTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		53B665215F094BBAB444D12C /* NotoSerif-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D808CB224DF848058C6F1035 /* NotoSerif-Bold.ttf */; };
-		29465E04CCF54495ABAF1818 /* NotoSerif-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C1FA59441EC74C8CA319EEBD /* NotoSerif-BoldItalic.ttf */; };
-		3C23259623684E499A8769FA /* NotoSerif-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 433F2C9FC2694B13A05B89F8 /* NotoSerif-Italic.ttf */; };
-		C656797B2D5C4556AAE82EF6 /* NotoSerif-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 38CA0A20406D4088AFF412D3 /* NotoSerif-Regular.ttf */; };
+		01280C71FBCB4198B4AEFA1C /* Group 18118.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B9DE47691D764D9DBF74A571 /* Group 18118.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,10 +45,7 @@
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ResturantApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-ResturantApp-ResturantAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ResturantApp-ResturantAppTests.release.xcconfig"; path = "Target Support Files/Pods-ResturantApp-ResturantAppTests/Pods-ResturantApp-ResturantAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		D808CB224DF848058C6F1035 /* NotoSerif-Bold.ttf */ = {isa = PBXFileReference; name = "NotoSerif-Bold.ttf"; path = "../assets/fonts/NotoSerif-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		C1FA59441EC74C8CA319EEBD /* NotoSerif-BoldItalic.ttf */ = {isa = PBXFileReference; name = "NotoSerif-BoldItalic.ttf"; path = "../assets/fonts/NotoSerif-BoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		433F2C9FC2694B13A05B89F8 /* NotoSerif-Italic.ttf */ = {isa = PBXFileReference; name = "NotoSerif-Italic.ttf"; path = "../assets/fonts/NotoSerif-Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		38CA0A20406D4088AFF412D3 /* NotoSerif-Regular.ttf */ = {isa = PBXFileReference; name = "NotoSerif-Regular.ttf"; path = "../assets/fonts/NotoSerif-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B9DE47691D764D9DBF74A571 /* Group 18118.jpg */ = {isa = PBXFileReference; name = "Group 18118.jpg"; path = "../assets/Images/Group 18118.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,10 +154,7 @@
 		90E560582DF94400AC010338 /* Resources */ = {
 			isa = "PBXGroup";
 			children = (
-				D808CB224DF848058C6F1035 /* NotoSerif-Bold.ttf */,
-				C1FA59441EC74C8CA319EEBD /* NotoSerif-BoldItalic.ttf */,
-				433F2C9FC2694B13A05B89F8 /* NotoSerif-Italic.ttf */,
-				38CA0A20406D4088AFF412D3 /* NotoSerif-Regular.ttf */,
+				B9DE47691D764D9DBF74A571 /* Group 18118.jpg */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -265,10 +256,7 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
-				53B665215F094BBAB444D12C /* NotoSerif-Bold.ttf in Resources */,
-				29465E04CCF54495ABAF1818 /* NotoSerif-BoldItalic.ttf in Resources */,
-				3C23259623684E499A8769FA /* NotoSerif-Italic.ttf in Resources */,
-				C656797B2D5C4556AAE82EF6 /* NotoSerif-Regular.ttf in Resources */,
+				01280C71FBCB4198B4AEFA1C /* Group 18118.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
