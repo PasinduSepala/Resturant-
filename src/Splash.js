@@ -1,20 +1,25 @@
 
 import { useNavigation } from '@react-navigation/native';
 import React from 'react';
-import { Image, SafeAreaView, StyleSheet,  Text,  TouchableOpacity } from 'react-native';
+import { Image, SafeAreaView, StyleSheet,  } from 'react-native';
+import { navigations } from './enum';
+import Home from './Home';
+
+
 
 const Splash = ({navigation}) => {
+  React.useEffect(() => {
+    setTimeout(() => {
+      navigation.navigate(navigations.TAB_HOME
+        );
+    }, 2000);
+  }, [navigation]);
   return (
     <SafeAreaView style={styles.container}>
     <Image source={require('../src/assets/images/img.png')} />
     
     <SafeAreaView>
-    <TouchableOpacity  title="Welcome"
-        onPress={() => navigation.navigate('Welcome')}>
-         <Text style={{fontFamily:'RobotoCondensed-Regular',fontSize:20,textAlign:"left"}}> Welcome</Text>
-        
-        
-    </TouchableOpacity>
+    
     </SafeAreaView>
     </SafeAreaView>
     

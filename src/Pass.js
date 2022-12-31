@@ -1,45 +1,19 @@
 import React from 'react';
-import { Image, SafeAreaView, StyleSheet, TextInput, View,  } from 'react-native';
+import { Image, SafeAreaView, StyleSheet, Text, TextInput, View,  } from 'react-native';
+import LinearGradient from 'react-native-linear-gradient';
 
 const Pass = () => {
     const [Mail,SetMail]=React.useState(null)
   return (
-  <SafeAreaView>
-    <View>
-    <Image  source={require('../src/assets/images/ellip.png')}/>
-     <Image style={{alignSelf:'flex-end',bottom:80}}  source={require('../src/assets/images/img6.png')}/>
-     <Image style={{bottom:160}}  source={require('../src/assets/images/img5.png')}/>
-     </View>
-     <View>
-     <Image style={{bottom:40}} source={require('../src/assets/images/img04.png')}/>
-     <Image style={{bottom:10}} source={require('../src/assets/images/img05.png')}/>
-     </View>
-     <View>
-        <TextInput
-         style={styles.input}
-        onChangeText={SetMail}
-        value={Mail}
-        keyboardType="text"
-        >
+    <><LinearGradient
+          colors={['rgba(0, 0, 0, 0)', 'rgba(0, 0, 0, 0.9)']}
+          style={{ position: 'absolute', width:370, height:1000,flex:1 }}></LinearGradient><SafeAreaView>
 
-        </TextInput>
-     </View>
-  </SafeAreaView>
+          </SafeAreaView></>
   );
 }
     const styles=StyleSheet.create({
-        input:{
-            alignSelf:"center",
-            width:300,
-            height:50,
-            color:"black",
-            fontWeight:"bold",
-            fontSize:15,
-            margin: 12,
-                borderWidth: 1,
-                padding: 10,
-                borderColor:"white",
-                bottom:187
-    }
+       
+    
 })
 export default Pass;
